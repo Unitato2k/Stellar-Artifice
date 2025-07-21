@@ -3,7 +3,7 @@
 	"id": "stellar-artifice",
 	"version": "${version}",
 	"name": "Stellar Artifice",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "Connecting the stars to the player, one gemstone at a time.",
 	"authors": [
 		"UniJelly_",
 		"Ash_Woods"
