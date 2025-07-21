@@ -1,0 +1,41 @@
+{
+	"schemaVersion": 1,
+	"id": "stellar-artifice",
+	"version": "${version}",
+	"name": "Stellar Artifice",
+	"description": "This is an example description! Tell everyone what your mod is about!",
+	"authors": [
+		"UniJelly_",
+		"Ash_Woods"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/stellar-artifice/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.logan.stellarartifice.StellarArtifice"
+		],
+		"fabric-datagen": [
+			"net.logan.stellarartifice.StellarArtificeDataGenerator"
+		],
+		"client": [
+			"net.logan.stellarartifice.StellarArtificeClient"
+		]
+	},
+	"mixins": [
+		"stellar-artifice.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.14",
+		"minecraft": "~1.21.4",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
